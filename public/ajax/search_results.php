@@ -83,7 +83,6 @@ $allTypes = $type->getAllTypes();
     <?php 
         }
     ?>
-</section>
     <?php 
         if (count($allAvailableRooms) == 0) {
     ?>
@@ -94,3 +93,4 @@ $allTypes = $type->getAllTypes();
         }
     ?>
 <hr>
+</section>

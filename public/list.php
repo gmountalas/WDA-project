@@ -179,7 +179,6 @@ $allTypes = $type->getAllTypes();
         <?php 
           }
         ?>
-        </section>
         <?php 
           if (count($allAvailableRooms) == 0) {
         ?>
