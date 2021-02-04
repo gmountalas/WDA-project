@@ -41,7 +41,7 @@ class BaseService
         // Execute
         $status = $statement->execute($parameters);
         if(!$status) {
-            throw new Exception($statement->errorInfo()[2]);
+            throw new \Exception($statement->errorInfo()[2]);
         }
 
         return $status;
@@ -55,7 +55,7 @@ class BaseService
         // Execute
         $status = $statement->execute($parameters);
         if(!$status) {
-            throw new Exception($statement->errorInfo()[2]);
+            throw new \Exception($statement->errorInfo()[2]);
         }
 
         // Fetch all
@@ -70,7 +70,7 @@ class BaseService
         // Execute
         $status = $statement->execute($parameters);
         if(!$status) {
-            throw new Exception($statement->errorInfo()[2]);
+            throw new \Exception($statement->errorInfo()[2]);
         }
 
         // Fetch all

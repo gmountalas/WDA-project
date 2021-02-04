@@ -17,7 +17,7 @@ class Room extends BaseService
             foreach ($rows as $row) {
                 $cities[] = $row['city'];
             }
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             //
         }
         
