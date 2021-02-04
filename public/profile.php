@@ -11,7 +11,8 @@ use Hotel\Review;
 // Check for logged in user
 $userId = User::getCurrentUserId();
 if(empty($userId)) {
-  header('Locaton: index.php');
+  header('Location: ./index.php');
+  return;
 }
 
 // Get all favorites
