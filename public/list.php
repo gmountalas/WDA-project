@@ -52,7 +52,7 @@ $allTypes = $type->getAllTypes();
     <style>
       .ui-state-active .ui-icon,
       .ui-button:active .ui-icon {
-        background-image: url("images/ui-icons_555555_256x240.png");
+        background-image: url("assets/css/images/ui-icons_555555_256x240.png");
       }
     </style>    
   </head>
