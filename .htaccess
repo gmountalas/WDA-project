@@ -1,0 +1,22 @@
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
+
+# Deny access to files with extensions .ini, .psd, .log, .sh
+<FilesMatch "\.(ini|psd|log|sh)$">
+Order allow,deny
+Deny from all
+
+</FilesMatch>
+
+# Deny access to files config.json
+<FilesMatch "config.json$">
+Order allow,deny
+Deny from all
+
+</FilesMatch>
