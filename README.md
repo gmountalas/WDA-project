@@ -17,9 +17,11 @@ Technologies used:
 <br>
 
 ![Index image](media\index.png)
+<img src="media\index.PNG" width="800px" height="auto">
 
 ### Mobile View ###
 <br>
 
 ![Index image Mobile](media\index-mobile.png)
+<img src="media\index-mobile.PNG" width="800px" height="auto">
 
