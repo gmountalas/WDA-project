@@ -17,11 +17,11 @@ Technologies used:
 <br>
 
 ![Index image](media/Index.PNG)
-<img src="medi/index.PNG" width="800px" height="auto">
 
 ### Mobile View ###
 <br>
 
 ![Index image Mobile](media/Index-mobile.PNG)
-<img src="media/index-mobile.PNG" width="800px" height="auto">
+![](media/room_ajax_mobile.gif)
+![](media/search_results_mobile.gif)
 
