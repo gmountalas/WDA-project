@@ -90,4 +90,12 @@ class Room extends BaseService
         ];
         return $this->fetch('SELECT * FROM room WHERE room_id = :room_id' , $parameters);
     }
+
+    public function getRoomReviewAvg($roomId)
+    {
+        $parameters = [
+            'room_id' => $roomId,
+        ];
+        return $this->fetch('SELECT avg_reviews FROM room WHERE room_id = :room_id', $parameters);
+    }
 }

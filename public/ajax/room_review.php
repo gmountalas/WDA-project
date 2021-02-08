@@ -5,6 +5,7 @@ require_once __DIR__.'/../../boot/boot.php';
 
 use Hotel\User;
 use Hotel\Review;
+use Hotel\Room;
 
 // Homepage redirect if not post request
 if (strtolower($_SERVER['REQUEST_METHOD']) != 'post') {
@@ -42,6 +43,10 @@ $review = new Review();
 $roomReviews = $review->getReviewsByRoom($roomId);
 $counter = count($roomReviews);
 
+// Get updated Review average
+$room = new Room();
+$roomInfo = $room->getRoomReviewAvg($roomId);
+
 // Load user
 $user = new User();
 $userInfo = $user->getByUserID(User::getCurrentUserId());
@@ -70,6 +75,23 @@ $userInfo = $user->getByUserID(User::getCurrentUserId());
     </div>
     <span class="review-date">Created at: <?php echo date('Y-m-d H:i:s'); ?></span>
     <span class="comment"><?php echo $_REQUEST['comment']; ?></span>
+</div>
+
+<div class="rating-display">
+    <?php 
+        $roomAvgReview = $roomInfo['avg_reviews'];
+        for ($i = 1; $i<=5; $i++) {
+        if ($roomAvgReview >= $i) {
+            ?>
+        <span class="fa fa-star checked"></span>
+            <?php
+        } else {
+            ?>
+        <span class="fa fa-star "></span>
+            <?php
+        }
+        }
+    ?>
 </div>
 
 

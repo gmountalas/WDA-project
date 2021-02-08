@@ -100,7 +100,16 @@
                 dataType: "html",
                 data: formData
             }).done(function(result) {
-                $('#room-reviews-container').prepend(result);
+                // Return the review and the new average rating as the ajax result
+                let $response = $(result);
+                let $reviewRating = $response.filter('.box').prop('outerHTML');
+                let $reviewAvg = $response.filter('.rating-display').prop('outerHTML');
+                
+                // Prepend at the top the new review
+                $('#room-reviews-container').prepend($reviewRating);
+                // Update the star rating with the new average rating
+                $('.rating-display').replaceWith($reviewAvg);
+                // Reset the form
                 $('form.reviewForm').trigger('reset');
             }).fail(function(jqXHR, textStatus, errorThrown){
                 alert("An ajax error occurred: " + textStatus + " : " + errorThrown);
