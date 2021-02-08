@@ -25,7 +25,7 @@ Technologies used:
 ![Profile](media/profile.PNG)
 
 ### Mobile View ###
-<<br>br>***Index***<br>
+<br><br>***Index***<br>
 
 ![Index image Mobile](media/Index-mobile.PNG)
 <br><br>***Room***<br><br>
