@@ -14,12 +14,12 @@ Technologies used:
 ## Screenshots ##
 
 ### Desktop view ###
-Index
+<br> 
 
 ![Index image](index.png)
 
 ### Mobile View ###
-Index mobile
+<br>
 
 ![Index image Mobile](index-mobile.png)
 
