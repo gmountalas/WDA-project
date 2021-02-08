@@ -17,6 +17,8 @@ Technologies used:
 <br>
 
 ![Index image](media/Index.PNG)
+![](media/search_results.PNG)
+![](media/profile.PNG)
 
 ### Mobile View ###
 <br>
