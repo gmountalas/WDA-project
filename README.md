@@ -17,13 +17,13 @@ Technologies used:
 <br>
 
 ![Index image](media/Index.PNG)
-![](media/search_results.PNG)
-![](media/profile.PNG)
+![Search Results](media/search_results.PNG)
+![Profile](media/profile.PNG)
 
 ### Mobile View ###
 <br>
 
 ![Index image Mobile](media/Index-mobile.PNG)
-![](media/room_ajax_mobile.gif)
-![](media/search_results_mobile.gif)
+![Room ajax](media/room_ajax_mobile.gif)
+![Search Results Mobile](media/search_results_mobile.gif)
 
