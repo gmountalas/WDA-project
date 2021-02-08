@@ -16,10 +16,12 @@ Technologies used:
 ### Desktop view ###
 <hr>
 <br>
+
 ![Index image](media/index.png)
 
 ### Mobile View ###
 <hr>
-<br> 
+<br>
+
 ![Index image Mobile](media/index-mobile.png)
 
