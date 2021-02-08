@@ -16,12 +16,12 @@ Technologies used:
 ### Desktop view ###
 <br>
 
-![Index image](media\index.png)
-<img src="media\index.PNG" width="800px" height="auto">
+![Index image](media/Index.PNG)
+<img src="medi/index.PNG" width="800px" height="auto">
 
 ### Mobile View ###
 <br>
 
-![Index image Mobile](media\index-mobile.png)
-<img src="media\index-mobile.PNG" width="800px" height="auto">
+![Index image Mobile](media/Index-mobile.PNG)
+<img src="media/index-mobile.PNG" width="800px" height="auto">
 
