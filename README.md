@@ -15,15 +15,15 @@ Technologies used:
 
 ### Desktop view ###
 
-![Index image](.media/index.png)
-![Profile](.media/profile.gif)
-![Room](.media/room_ajax.gif)
-![Search Results](.media/search_results.gif)
+![Index image](media/index.png)
+![Profile](media/profile.gif)
+![Room](media/room_ajax.gif)
+![Search Results](media/search_results.gif)
 
 ### Mobile View ###
 
-![Index image Mobile](.media/index-mobile.png)
-![Profile](.media/profile_mobile.gif)
-![Room](.media/room_ajax_mobile.gif)
-![Search Results](.media/search_results_mobile.gif)
+![Index image Mobile](media/index-mobile.png)
+![Profile](media/profile_mobile.gif)
+![Room](media/room_ajax_mobile.gif)
+![Search Results](media/search_results_mobile.gif)
 
