@@ -4,12 +4,12 @@ This project is part of the hands-on experience for the Web Developmnet eLearnin
 The functionality for a Hotel searching Web App is implemented.
 
 Technologies used:
-    * HTML
-    * CSS
-    * JavaScript
-    * JQuery (Ajax)
-    * PHP
-    * MySQL
+    - HTML
+    - CSS
+    - JavaScript
+    - JQuery (Ajax)
+    - PHP
+    - MySQL
 
 ## Screenshots ##
 
