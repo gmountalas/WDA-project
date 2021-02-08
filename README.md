@@ -15,9 +15,11 @@ Technologies used:
 
 ### Desktop view ###
 <br />
+
 ![Index image](media/index.png)
 
 ### Mobile View ###
 <br />
+
 ![Index image Mobile](media/index-mobile.png)
 
